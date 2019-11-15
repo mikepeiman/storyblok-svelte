@@ -19,7 +19,7 @@
   const loadStoryblokBridge = function(cb) {
     let script = document.createElement('script')
     script.type = 'text/javascript'
-    script.src = `//app.storyblok.com/f/storyblok-latest.js?t=<YOUR_TOKEN>`
+    script.src = `//app.storyblok.com/f/storyblok-latest.js?t=gDlW5wFiN5C9l8XRQzMg3gtt`
     script.onload = cb
     document.getElementsByTagName('head')[0].appendChild(script)
   }
